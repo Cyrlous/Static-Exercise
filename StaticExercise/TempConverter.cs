@@ -6,4 +6,9 @@ public static class TempConverter
     {
          return (temp - 32) * 5 / 9;
     }
+
+    public static double CelsiusToFahrenheit(double temp)
+    {
+        return (temp * 1.8) + 32;
+    }
 }
